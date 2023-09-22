@@ -3,3 +3,39 @@ body {
     padding: 0;
 }
 
+
+.home {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./img/Home-SabriCeramica.png);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo-p {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.02);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 70px;
+    padding-bottom: 10px;
+    background-image: linear-gradient(to right, #34a7bb, #e89353);
+    background-clip: initial;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+
