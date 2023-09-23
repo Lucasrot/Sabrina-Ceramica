@@ -1,0 +1,28 @@
+.sections{
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 60%;
+    flex-direction: column;
+    margin: 30px;
+    
+}
+
+div{
+    width: 100%;
+}
+
+h3{
+    margin: 2em 0;
+    text-align: center;
+}
+
+form button{
+    color: black;
+    background-color: var(--colorsiena) !important;
+    margin: 5px;
+    align-self: center;
+}
+
+

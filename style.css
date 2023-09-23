@@ -1,7 +1,7 @@
 
 :root{
     --colorsiena: #c4a15a;
-    --colorceleste: #9eb7b6;
+    --colorceleste: #c8f0ee1e;
     --coloreverde: #aacb93;
     --colorazul: #274c65;
     --colorblanco: #ffffff;
@@ -9,12 +9,38 @@
     box-sizing: border-box;
 }
 
+body{
+    height: fit-content;
+    background-image: linear-gradient(to bottom, var(--colorceleste), var(--coloreverde));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
 header{
     height: 30vh;
+    z-index: 7800;
+    box-shadow: 0px 4px 6px rgba(0.1, 0, 0, 0.1);
 }
 
 .navbar{
     background-color: var(--coloreverde);
+}
+
+nav button{
+    border: none !important;
+    border: 1px !important;
+}
+
+nav button:hover{
+    border: none !important;
+
+}
+
+.menu-end{
+    display: flex;
+    justify-content: end;
+    text-align: end;
+    
 }
 
 #logo{
@@ -22,11 +48,32 @@ header{
     position: absolute;
     left: 1em;
     top: 2vh;
+    z-index: 9999;
 }
 
-/* solo para ubicarnos durante la edicion  */
+
 * main{
-    border: solid 1px black;
-    height: 200px;
-    background-color: var(--colorceleste);
+    height: 100vh;
+   
+}
+
+.sections{
+    height: 30vh;
+    background-color: var(--colorblanco);
+    margin: 2% 0;
+    border-radius: 5px;
+
+}
+h1{
+    color: var(--colorsiena);
+}
+
+
+
+footer{
+    background-color: var(--coloreverde);
+    height: 20px;
+    box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.1);
+    color: rgb(43, 43, 43);
+    height: 3em;
 }
