@@ -11,6 +11,7 @@
 
 header{
     height: 30vh;
+    z-index: 7800;
 }
 
 .navbar{
@@ -22,11 +23,11 @@ header{
     position: absolute;
     left: 1em;
     top: 2vh;
+    z-index: 9999;
 }
 
-/* solo para ubicarnos durante la edicion  */
+
 * main{
-    border: solid 1px black;
     height: 200px;
     background-color: var(--colorceleste);
 }
