@@ -1,5 +1,32 @@
-body {
-    margin: 0;
-    padding: 0;
+
+:root{
+    --colorsiena: #c4a15a;
+    --colorceleste: #9eb7b6;
+    --coloreverde: #aacb93;
+    --colorazul: #274c65;
+    --colorblanco: #ffffff;
+    font-family: Arial, Helvetica, sans-serif !important; 
+    box-sizing: border-box;
 }
 
+header{
+    height: 30vh;
+}
+
+.navbar{
+    background-color: var(--coloreverde);
+}
+
+#logo{
+    height: 30vh;
+    position: absolute;
+    left: 1em;
+    top: 2vh;
+}
+
+/* solo para ubicarnos durante la edicion  */
+* main{
+    border: solid 1px black;
+    height: 200px;
+    background-color: var(--colorceleste);
+}
