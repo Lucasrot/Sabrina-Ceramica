@@ -1,9 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+
 body {
     margin: 0;
     padding: 0;
 }
 
+/*Header - Nav*/
 
+
+/*Home-h1-P-Button*/
 .home {
     width: 100%;
     height: 100vh;
@@ -18,24 +23,93 @@ body {
     justify-content: center;
     align-items: center;
 }
-
 .titulo-p {
+    width: 70%;
+    font-family: 'Montserrat Alternates', sans-serif;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.02);
-    padding: 20px;
+    color: rgb(235, 223, 208);
+    background-color: rgba(0, 0, 0, 0.13);
     border-radius: 10px;
+    padding-bottom: 6px;
+    padding-right: 2px;
 }
-
 h1 {
-    font-family: 'Chakra Petch', sans-serif;
-    font-size: 70px;
-    padding-bottom: 10px;
-    background-image: linear-gradient(to right, #34a7bb, #e89353);
+    font-family: 'Amatic SC', cursive;
+    background-image: linear-gradient(to right, #14a6c0, #ecdf23);
     background-clip: initial;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+.home-boton {
+    padding: 17px 40px;
+    border-radius: 50px;
+    border: 0;
+    background-color: white;
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: all .5s ease;
+}
+
+.home-boton:hover {
+    letter-spacing: 3px;
+    background-color: hsl(115, 80%, 48%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(18, 252, 232) 0px 7px 29px 0px;
+}
+
+.home-boton:active {
+    letter-spacing: 3px;
+    background-color: hsl(93, 80%, 48%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(24, 181, 220) 0px 0px 0px 0px;
+    transform: translateY(10px);
+    transition: 100ms;
+}
+
+/*Home-responsive*/
+@media screen and (max-width: 768px) {
+    .parrafo {
+        display: none;
+    }
+
+    .display-1 {
+        font-size: calc(3.625rem + 4.5vw);
+        font-weight: 300;
+        line-height: 1.2;
+    }
+
+    .home-boton {
+        text-align: center;
+        margin: 4px;
+    }
+}
 
 
-
-
+/*Nosotros*/
+.nosotros {
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+.nosotros-carrusel {
+    width: 50%;
+}
+.nosotros-tex {
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    padding: 4px;
+    width: 50%;
+}
+/*Nosotros-responsive*/
+@media screen and (max-width: 768px) {
+    .nosotros-carrusel {
+        width: 100%;
+    }
+    .nosotros-tex {
+        text-align: center;
+        padding: 4px;
+        width: 100%;
+    }
+}
