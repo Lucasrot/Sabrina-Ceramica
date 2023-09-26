@@ -49,58 +49,103 @@
     </header>
     <main>
 
-        <!--Home-->
-        <section class="home" id="Home">
-            <div class="titulo-p">
-                <h1 class="h1 text-center text-uppercase display-1">
-                    Taller de Cerámica en Mar Del Plata <strong>Sabri Ceramica</strong>
-                </h1>
-                <p class="parrafo text-xl-center fs-3">La cerámica, un antiguo arte que ha perdurado a lo largo de la
-                    historia, es
-                    mucho más que la simple manipulación de arcilla. Es una disciplina artística que invita a la
-                    creatividad
-                    y la destreza técnica para dar vida a objetos y obras de arte únicos. Imagina la emoción de moldear
-                    la
-                    arcilla según tu visión, y luego verla transformarse en piezas sólidas.</p>
+    <!--Home-->
+    <section class="home" id="Home">
+        <div class="titulo-p">
+            <h1 class="h1 text-center text-uppercase display-1">
+                Taller de Cerámica en Mar Del Plata <strong>Sabri Ceramica</strong>
+            </h1>
+            <p class="parrafo text-xl-center fs-3">La cerámica, un antiguo arte que ha perdurado a lo largo de la
+                historia, es
+                mucho más que la simple manipulación de arcilla. Es una disciplina artística que invita a la creatividad
+                y la destreza técnica para dar vida a objetos y obras de arte únicos. Imagina la emoción de moldear la
+                arcilla según tu visión, y luego verla transformarse en piezas sólidas.</p>
+            <a href="#Curso">
                 <button class="home-boton">Curso</button>
+            </a>
+            <a href="#">
                 <button class="home-boton">Productos</button>
-            </div>
-        </section>
+            </a>
+        </div>
+    </section>
 
-        <!--Sobre Nosotros-->
-        <section class="nosotros d-flex flex-sm-row flex-column">
-            <div class="nosotros-carrusel container mt-4">
-                <div id="second-carousel" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="./img/Home-SabriCeramica.png" class="d-block w-100" alt="Imagen 3">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="./img/Home-SabriCeramica.png" class="d-block w-100" alt="Imagen 4">
-                        </div>
+    <!--Sobre Nosotros-->
+    <section class="nosotros d-flex flex-sm-row-reverse flex-column" id="Nosotros">
+        <div class="nosotros-carrusel container mt-2 mb-2">
+            <div id="second-carousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./assets/img/fotocurso3.jpg" class="d-block w-100" alt="Imagen 3">
                     </div>
-                    <a class="carousel-control-prev" href="#second-carousel" role="button" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Anterior</span>
-                    </a>
-                    <a class="carousel-control-next" href="#second-carousel" role="button" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Siguiente</span>
-                    </a>
+                    <div class="carousel-item">
+                        <img src="./assets/img/fotocurso4.jpg" class="d-block w-100" alt="Imagen 4">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/img/fotocurso5.jpg" class="d-block w-100" alt="Imagen 4">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#second-carousel" role="button" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </a>
+                <a class="carousel-control-next" href="#second-carousel" role="button" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Siguiente</span>
+                </a>
+            </div>
+        </div>
+        <div class="nosotros-tex">
+            <h2 class="h2 display-3">Sobre Sabri cerámico</h2>
+            <p class="fs-3">Nuestro taller es un espacio donde puedes aprender el arte de la cerámica, compartir una
+                charlas,
+                dar rienda suelta a tu creatividad y hacer una pausa en tu rutina diaria, dejando las preocupaciones a
+                un lado, un lugar en el que cada alumna es Única.
+                Te animamos a crear, a dedicarte un rato para desconectar de todo y conectar con tu parte creativa,
+                conoce este mundo increíble que es la Cerámica.
+            </p>
+            <p class="fs-3">Vení a conocer el mundo de la cerámica!!</p>
+        </div>
+    </section>
+
+    <!--Curso-Card-->
+    <section id="Curso">
+        <div class="card mb-3 d-flex flex-sm-row flex-column">
+            <div class="row g-0">
+                <div class="col-md-6 mt-1 mt-md-0">
+                    <div class="video">
+                        <iframe width="100%" height="100%"
+                            src="https://www.youtube.com/embed/ie5NdWCXK3A?si=VQJmXCJsp7XvD5EM"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card-body">
+                        <p class="card-text text-2"><small class="text-muted">Profesora - Nadia Sabrina</small></p>
+                        <h3 class="card-title text-center display-3">Animate a crea tu vajilla</h3>
+                        <p class="card-text">Podrás aprender diferentes técnicas de construcción de objetos manuales,
+                            tratamientos de superficie y esmaltado de piezas decoración de piezas con sellos y engobes.
+                            Deja fluir tu creatividad.</p>
+                        <p> Podrás elegir entre realizar :</p>
+                        <ul>
+                            <li>2 tazas o tazones, azucarera y bandeja</li>
+                            <li>Mate, azucarera, yerbera y bandeja</li>
+                        </ul>
+                        <p>Se incluyen materiales y horneado!!</p>
+                        <div class="d-flex justify-content-center">
+                            <a href="#Home">
+                                <button class="boton-card">
+                                    Suscríbete
+                                </button>
+                            </a>
+                        </div>
+                        <p class="card-text text-1 mt-2"><small class="text-muted">Profesora - Nadia Sabrina</small></p>
+                    </div>
                 </div>
             </div>
-            <div class="nosotros-tex">
-                <h2 class="h2 display-3">Sobre Sabri cerámico</h2>
-                <p class="fs-3">Nuestro taller es un espacio donde puedes aprender el arte de la cerámica, compartir una
-                    charlas,
-                    dar rienda suelta a tu creatividad y hacer una pausa en tu rutina diaria, dejando las preocupaciones
-                    a
-                    un lado, un lugar en el que cada alumna es Única.
-                    Te animamos a crear, a dedicarte un rato para desconectar de todo y conectar con tu parte creativa.
-                    Conoce este mundo increíble que es la Cerámica,
-                    Vení a crear tu propia vajilla y a conocer el mundo de la cerámica!!</p>
-            </div>
-        </section>
+        </div>
+    </section>
 
 
         <section id="media" class="row sections">
@@ -119,9 +164,6 @@
         </section>
 
 
-
-
-    </main>
     <footer>
 
     </footer>
