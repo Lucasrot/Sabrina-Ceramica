@@ -56,7 +56,7 @@ nav button:hover{
 .home {
     width: 100%;
     height: 100vh;
-    background-image: url(./img/Home-SabriCeramica.png);
+    background-image: url(./assets/img/Home-SabriCeramica.png);
     background-size: cover;
     background-attachment: fixed;
     position: relative;
