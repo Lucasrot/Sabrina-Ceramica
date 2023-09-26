@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+
 :root {
     --colorsiena: #c4a15a;
     --colorceleste: #c8f0ee1e;
@@ -8,6 +9,7 @@
     font-family: Arial, Helvetica, sans-serif !important;
     box-sizing: border-box;
 }
+
 body {
     margin: 0;
     padding: 0;
@@ -29,6 +31,7 @@ body {
     justify-content: center;
     align-items: center;
 }
+
 .titulo-p {
     width: 70%;
     font-family: 'Montserrat Alternates', sans-serif;
@@ -39,6 +42,7 @@ body {
     padding-bottom: 6px;
     padding-right: 2px;
 }
+
 h1 {
     font-family: 'Amatic SC', cursive;
     background-image: linear-gradient(to right, var(--coloreverde), rgb(182, 171, 26));
@@ -46,6 +50,7 @@ h1 {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
 .home-boton {
     padding: 17px 40px;
     border-radius: 50px;
@@ -57,12 +62,14 @@ h1 {
     font-size: 15px;
     transition: all .5s ease;
 }
+
 .home-boton:hover {
     letter-spacing: 3px;
     background-color: var(--coloreverde);
     color: var(--colorblanco);
     box-shadow: var(--colorceleste) 0px 7px 29px 0px;
 }
+
 /*Home-responsive*/
 @media screen and (max-width: 768px) {
     .parrafo {
@@ -90,15 +97,18 @@ h1 {
     width: 100%;
     display: flex;
 }
+
 .nosotros-carrusel {
     width: 50%;
 }
+
 .nosotros-tex {
     font-family: 'Amatic SC', cursive;
     text-align: center;
     padding: 4px;
     width: 50%;
 }
+
 /*Nosotros-responsive*/
 @media screen and (max-width: 768px) {
     .nosotros {
@@ -116,3 +126,80 @@ h1 {
         width: 100%;
     }
 }
+
+/*Curso*/
+.card {
+    height: 100%;
+    width: 100%;
+}
+h3{
+    font-family: 'Amatic SC', cursive;
+}
+.img-fluid {
+    max-width: 100%;
+    height: 100%;
+}
+.boton-card {
+    padding: 1em 2em;
+    border: none;
+    border-radius: 19px;
+    -webkit-border-radius: 19px;
+    -moz-border-radius: 19px;
+    -ms-border-radius: 19px;
+    -o-border-radius: 19px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #2c9caf;
+    background-color: #abcc94;
+    transition: all 1000ms;
+    -webkit-transition: all 1000ms;
+    -moz-transition: all 1000ms;
+    -ms-transition: all 1000ms;
+    -o-transition: all 1000ms;
+    font-size: 15px;
+    position: relative;
+    overflow: hidden;
+    outline: 3px solid #2c9caf;
+}
+.boton-card:hover {
+    color: #ffffff;
+    transform: scale(1.1);
+    outline: 2px solid #70bdca;
+    box-shadow: 4px 5px 17px -4px #268391;
+}
+.boton-card::before {
+    content: "";
+    position: absolute;
+    left: -50px;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background-color: #2c9caf;
+    transform: skewX(45deg);
+    z-index: -1;
+    transition: width 1000ms;
+}
+.boton-card:hover::before {
+    width: 250%;
+}
+.text-2{
+    display: none;
+}
+.video{
+    width: 100%;
+    height: 100%;
+}
+/*Curso-responsive*/
+@media screen and (max-width: 768px) {
+    .text-2 {
+        display: block;
+    }
+    .text-1{
+        display: none;
+    }
+}
+
+/*
+<img src="/img/Home-SabriCeramica.png" class="img-fluid rounded-start" alt="...">
+*/
