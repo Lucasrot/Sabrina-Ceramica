@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
 
 :root {
-
-:root {
     --colorsiena: #c4a15a;
     --colorceleste: #c8f0ee1e;
     --coloreverde: #aacb93;
@@ -33,9 +31,8 @@ nav  {
     height: 70px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
-}
 
-#nb-div-1 {
+
 #nb-div-1 {
     transition: all .5s ease;
     width: 200px;
@@ -97,9 +94,7 @@ nav  {
     text-decoration: none;
     color: black;
 }
-}
 
-#logo {
 #logo {
     height: 9rem;
     position: absolute;
@@ -120,12 +115,8 @@ nav  {
     }
 
     #nb-div-1:hover {
-
-    #nb-div-1:hover {
         transition: none;
     }
-
-    #nb-btn {
 
     #nb-btn {
         display: none;
@@ -364,7 +355,6 @@ h3 {
 
 
 /*Footer*/
-footer {
 footer {
     background-color: var(--coloreverde);
     height: 80px;
