@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
 
 :root {
+
+:root {
     --colorsiena: #c4a15a;
     --colorceleste: #c8f0ee1e;
     --coloreverde: #aacb93;
     --colorazul: #274c65;
     --colorblanco: #ffffff;
+    font-family: Arial, Helvetica, sans-serif !important;
     font-family: Arial, Helvetica, sans-serif !important;
     box-sizing: border-box;
 }
@@ -25,12 +28,14 @@ header {
     box-shadow: 0px 4px 6px rgba(0.1, 0, 0, 0.1);
 }
 
-nav {
+nav  {
     background-color: var(--coloreverde);
     height: 70px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
+}
 
+#nb-div-1 {
 #nb-div-1 {
     transition: all .5s ease;
     width: 200px;
@@ -92,7 +97,9 @@ nav {
     text-decoration: none;
     color: black;
 }
+}
 
+#logo {
 #logo {
     height: 9rem;
     position: absolute;
@@ -113,8 +120,12 @@ nav {
     }
 
     #nb-div-1:hover {
+
+    #nb-div-1:hover {
         transition: none;
     }
+
+    #nb-btn {
 
     #nb-btn {
         display: none;
@@ -160,6 +171,7 @@ nav {
     padding-right: 2px;
 }
 
+
 h1 {
     font-family: 'Amatic SC', cursive;
     background-image: linear-gradient(to right, var(--coloreverde), rgb(182, 171, 26));
@@ -167,6 +179,7 @@ h1 {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
 
 .home-boton {
     padding: 19px 21px;
@@ -180,12 +193,14 @@ h1 {
     transition: all .5s ease;
 }
 
+
 .home-boton:hover {
     letter-spacing: 3px;
     background-color: var(--coloreverde);
     color: var(--colorblanco);
     box-shadow: var(--colorceleste) 0px 7px 29px 0px;
 }
+
 
 /*Home-responsive*/
 @media screen and (max-width: 768px) {
@@ -218,9 +233,11 @@ h1 {
     align-items: center;
 }
 
+
 .nosotros-carrusel {
     width: 50%;
 }
+
 
 .nosotros-tex {
     font-family: 'Amatic SC', cursive;
@@ -228,6 +245,7 @@ h1 {
     padding: 4px;
     width: 50%;
 }
+
 
 /*Nosotros-responsive*/
 @media screen and (max-width: 768px) {
@@ -246,6 +264,7 @@ h1 {
         width: 100%;
     }
 
+
     .display-3 {
         font-size: calc(2.525rem + 2.3vw);
         font-weight: 300;
@@ -261,8 +280,11 @@ h1 {
 }
 
 h3 {
+
+h3 {
     font-family: 'Amatic SC', cursive;
 }
+
 
 .img-fluid {
     max-width: 100%;
@@ -326,11 +348,14 @@ h3 {
     height: 100%;
 }
 
+
 /*Curso-responsive*/
 @media screen and (max-width: 768px) {
     .text-2 {
         display: block;
     }
+
+    .text-1 {
 
     .text-1 {
         display: none;
@@ -339,6 +364,7 @@ h3 {
 
 
 /*Footer*/
+footer {
 footer {
     background-color: var(--coloreverde);
     height: 80px;
